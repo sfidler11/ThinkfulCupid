@@ -36,6 +36,7 @@ main img {
   width: 100px;
 }
 
+/*.group img { width: 100%; }*/
 /* ---  Groups & Items --- */
 
 .group {
@@ -44,10 +45,10 @@ main img {
   align-items: center;
 }
 
-.item {
-  flex: 1;
-  margin: 10px;
-}
+.item 
+{ flex: 1; 
+  flex-direction: column;
+   margin: 10px; }
 
 .item-double {
   flex: 2;
@@ -155,18 +156,5 @@ header nav ul li a:hover {
 .group { 
   flex-direction: row; 
 }
-
-
-  /*.blogGroup {
-    
-    flex-direction: row;
-    justify-content: center;
-  }*/
-  
-  .blogItem {
-    flex: 1; 
-    flex-direction: column; 
-    margin: 10px;
-  }
 
 }
