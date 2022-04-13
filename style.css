@@ -31,9 +31,6 @@ section.alternate-background {
   color: #ecdbc9;
 }
 
-.group img {
-  width: 100%;
-}
 
 main img {
   width: 100px;
@@ -155,10 +152,21 @@ header nav ul li a:hover {
     color: grey;
 }
 
-.group {
-    display: flex;
+.group { 
+  flex-direction: row; 
+}
+
+
+  /*.blogGroup {
+    
     flex-direction: row;
     justify-content: center;
+  }*/
+  
+  .blogItem {
+    flex: 1; 
+    flex-direction: column; 
+    margin: 10px;
   }
 
 }
